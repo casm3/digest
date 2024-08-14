@@ -5,13 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="36e78957-1cfa-4546-aa76-642ed9c4ac39" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/saosebastiao/digest/entity/Contribuicao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/saosebastiao/digest/entity/Dizimista.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/saosebastiao/digest/entity/Endereco.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/saosebastiao/digest/repository/DizimistaRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/saosebastiao/digest/repository/Contribuicao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/saosebastiao/digest/repository/EnderecoRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,8 +17,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
