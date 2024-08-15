@@ -1,5 +1,7 @@
 package com.saosebastiao.digest.controller;
 
+import com.saosebastiao.digest.dto.DizimistaDto;
+import com.saosebastiao.digest.dto.EntityMapper;
 import com.saosebastiao.digest.entity.Dizimista;
 import com.saosebastiao.digest.service.DizimistaService;
 import com.saosebastiao.digest.service.EnderecoService;
@@ -21,8 +23,14 @@ public class DizimistaController {
 
   @PostMapping
   @ResponseStatus(HttpStatus.CREATED)
-  public Dizimista salvarDizimista(@RequestBody Dizimista dizimista) {
-    return dizimistaService.salvarDizimista(dizimista);
+  public Dizimista salvarDizimista(@RequestBody DizimistaDto dizimistaDto) {
+    return dizimistaService.salvarDizimista(EntityMapper.toDizimista(dizimistaDto));
+  }
+
+  @GetMapping("/{id}")
+  @ResponseStatus(HttpStatus.OK)
+  public Dizimista buscarPorId(@PathVariable Long id) {
+    return dizimistaService.buscarPorId(id);
   }
 
 }

@@ -1,6 +1,7 @@
 package com.saosebastiao.digest.service;
 
 import com.saosebastiao.digest.entity.Dizimista;
+import com.saosebastiao.digest.exception.DizimistaNotFoundException;
 import com.saosebastiao.digest.repository.DizimistaRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -26,8 +27,8 @@ public class DizimistaService {
     return dizimistaRepository.findAll();
   }
 
-  public Optional<Dizimista> buscarPorId(Long id) {
-    return dizimistaRepository.findById(id);
+  public Dizimista buscarPorId(Long id) {
+    return dizimistaRepository.findById(id).orElseThrow(DizimistaNotFoundException::new);
   }
 
   public void excluirDizimista(Long id) {
