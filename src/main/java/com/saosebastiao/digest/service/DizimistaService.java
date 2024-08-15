@@ -7,7 +7,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
-import java.util.Optional;
 
 @Service
 public class DizimistaService {
@@ -39,7 +38,7 @@ public class DizimistaService {
     return dizimistaRepository.findByNomeContaining(nome);
   }
 
-  public Optional<Dizimista> buscarPorCpf(String cpf) {
-    return dizimistaRepository.findByCpf(cpf);
+  public Dizimista buscarPorCpf(String cpf) {
+    return dizimistaRepository.findByCpf(cpf).orElseThrow(DizimistaNotFoundException::new);
   }
 }

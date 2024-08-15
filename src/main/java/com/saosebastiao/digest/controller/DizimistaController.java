@@ -9,6 +9,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.List;
+
 @RestController
 @RequestMapping("/dizimistas")
 public class DizimistaController {
@@ -27,10 +29,34 @@ public class DizimistaController {
     return dizimistaService.salvarDizimista(EntityMapper.toDizimista(dizimistaDto));
   }
 
+  @GetMapping
+  @ResponseStatus(HttpStatus.OK)
+  public List<Dizimista> listarDizimistas() {
+    return dizimistaService.listarDizimistas();
+  }
+
   @GetMapping("/{id}")
   @ResponseStatus(HttpStatus.OK)
   public Dizimista buscarPorId(@PathVariable Long id) {
     return dizimistaService.buscarPorId(id);
+  }
+
+  @GetMapping("/{cpf}")
+  @ResponseStatus(HttpStatus.OK)
+  public Dizimista buscarPorCpf(@PathVariable String cpf) {
+    return dizimistaService.buscarPorCpf(cpf);
+  }
+
+  @GetMapping("/{nome}")
+  @ResponseStatus(HttpStatus.OK)
+  public List<Dizimista> buscarPorNome(@PathVariable String nome) {
+    return dizimistaService.buscarPorNome(nome);
+  }
+
+  @DeleteMapping("/{id}")
+  @ResponseStatus(HttpStatus.OK)
+  public void excluirDizimista(@PathVariable Long id) {
+    dizimistaService.excluirDizimista(id);
   }
 
 }
