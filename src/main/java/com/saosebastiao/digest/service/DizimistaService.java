@@ -12,7 +12,11 @@ import java.util.Optional;
 public class DizimistaService {
 
   @Autowired
-  private DizimistaRepository dizimistaRepository;
+  private final DizimistaRepository dizimistaRepository;
+
+  public DizimistaService(DizimistaRepository dizimistaRepository) {
+    this.dizimistaRepository = dizimistaRepository;
+  }
 
   public Dizimista salvarDizimista(Dizimista dizimista) {
     return dizimistaRepository.save(dizimista);

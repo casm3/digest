@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="36e78957-1cfa-4546-aa76-642ed9c4ac39" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/saosebastiao/digest/service/DizimistaService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/saosebastiao/digest/service/ContribuicaoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/saosebastiao/digest/service/EnderecoService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/saosebastiao/digest/repository/DizimistaRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/saosebastiao/digest/repository/DizimistaRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/saosebastiao/digest/repository/Contribuicao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/saosebastiao/digest/repository/ContribuicaoRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/saosebastiao/digest/service/DizimistaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/saosebastiao/digest/service/DizimistaService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
