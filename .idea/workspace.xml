@@ -5,11 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="36e78957-1cfa-4546-aa76-642ed9c4ac39" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/saosebastiao/digest/service/ContribuicaoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/saosebastiao/digest/service/EnderecoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/saosebastiao/digest/controller/DizimistaController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/saosebastiao/digest/dto/ContribuicaoDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/saosebastiao/digest/dto/DizimistaDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/saosebastiao/digest/dto/EnderecoDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/saosebastiao/digest/dto/EntityMapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/saosebastiao/digest/repository/Contribuicao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/saosebastiao/digest/repository/ContribuicaoRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/saosebastiao/digest/service/DizimistaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/saosebastiao/digest/service/DizimistaService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/saosebastiao/digest/entity/Dizimista.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/saosebastiao/digest/entity/Dizimista.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +22,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="Record" />
         <option value="Class" />
       </list>
     </option>
@@ -38,23 +41,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.DigestApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Application.com.saosebastiao.digest.DigestApplication.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.DigestApplicationTests.contextLoads.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.TitheServiceTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.TitheServiceTest.testTitheCreation.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;dev&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/carlos/IdeaProjects/digest&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.javacompiler&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.DigestApplication.executor": "Run",
+    "Application.com.saosebastiao.digest.DigestApplication.executor": "Run",
+    "JUnit.DigestApplicationTests.contextLoads.executor": "Run",
+    "JUnit.TitheServiceTest.executor": "Run",
+    "JUnit.TitheServiceTest.testTitheCreation.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "dev",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/carlos/IdeaProjects/digest",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
