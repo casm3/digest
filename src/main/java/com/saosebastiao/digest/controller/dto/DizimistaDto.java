@@ -1,8 +1,4 @@
-package com.saosebastiao.digest.dto;
-
-import com.saosebastiao.digest.entity.Contribuicao;
-import com.saosebastiao.digest.entity.Dizimista;
-import com.saosebastiao.digest.entity.Endereco;
+package com.saosebastiao.digest.controller.dto;
 
 import java.time.LocalDate;
 import java.util.List;

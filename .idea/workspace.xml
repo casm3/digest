@@ -5,9 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="36e78957-1cfa-4546-aa76-642ed9c4ac39" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/saosebastiao/digest/controller/ContribuicaoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/saosebastiao/digest/util/PropertyMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/saosebastiao/digest/advice/GeneralControllerAdvice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/saosebastiao/digest/controller/advice/GeneralControllerAdvice.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/saosebastiao/digest/controller/DizimistaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/saosebastiao/digest/controller/DizimistaController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/saosebastiao/digest/dto/ContribuicaoDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/saosebastiao/digest/controller/dto/ContribuicaoDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/saosebastiao/digest/dto/DizimistaDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/saosebastiao/digest/controller/dto/DizimistaDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/saosebastiao/digest/dto/EnderecoDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/saosebastiao/digest/controller/dto/EnderecoDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/saosebastiao/digest/dto/EntityMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/saosebastiao/digest/controller/dto/EntityMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/saosebastiao/digest/exception/ContribuicaoNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/saosebastiao/digest/service/exception/ContribuicaoNotFoundException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/saosebastiao/digest/exception/CustomNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/saosebastiao/digest/service/exception/CustomNotFoundException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/saosebastiao/digest/exception/DizimistaNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/saosebastiao/digest/service/exception/DizimistaNotFoundException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/saosebastiao/digest/exception/EnderecoNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/saosebastiao/digest/service/exception/EnderecoNotFoundException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/saosebastiao/digest/service/ContribuicaoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/saosebastiao/digest/service/ContribuicaoService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/saosebastiao/digest/service/DizimistaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/saosebastiao/digest/service/DizimistaService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,23 +52,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.DigestApplication.executor": "Run",
-    "Application.com.saosebastiao.digest.DigestApplication.executor": "Run",
-    "JUnit.DigestApplicationTests.contextLoads.executor": "Run",
-    "JUnit.TitheServiceTest.executor": "Run",
-    "JUnit.TitheServiceTest.testTitheCreation.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "dev",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/carlos/IdeaProjects/digest",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.DigestApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Application.com.saosebastiao.digest.DigestApplication.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.DigestApplicationTests.contextLoads.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TitheServiceTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TitheServiceTest.testTitheCreation.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;dev&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/carlos/IdeaProjects/digest&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />

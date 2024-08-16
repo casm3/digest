@@ -1,6 +1,6 @@
-package com.saosebastiao.digest.advice;
+package com.saosebastiao.digest.controller.advice;
 
-import com.saosebastiao.digest.exception.CustomNotFoundException;
+import com.saosebastiao.digest.service.exception.CustomNotFoundException;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.ResponseStatus;

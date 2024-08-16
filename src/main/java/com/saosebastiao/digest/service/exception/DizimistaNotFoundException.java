@@ -1,4 +1,4 @@
-package com.saosebastiao.digest.exception;
+package com.saosebastiao.digest.service.exception;
 
 public class DizimistaNotFoundException extends CustomNotFoundException {
   public DizimistaNotFoundException() {

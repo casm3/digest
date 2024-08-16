@@ -1,4 +1,4 @@
-package com.saosebastiao.digest.dto;
+package com.saosebastiao.digest.controller.dto;
 
 import java.math.BigDecimal;
 import java.time.LocalDate;

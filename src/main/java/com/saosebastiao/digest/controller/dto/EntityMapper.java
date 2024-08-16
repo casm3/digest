@@ -1,4 +1,4 @@
-package com.saosebastiao.digest.dto;
+package com.saosebastiao.digest.controller.dto;
 
 import com.saosebastiao.digest.entity.Contribuicao;
 import com.saosebastiao.digest.entity.Dizimista;
@@ -7,7 +7,6 @@ import com.saosebastiao.digest.entity.Endereco;
 public class EntityMapper {
   public static Dizimista toDizimista(DizimistaDto dizimistaDto) {
     Dizimista dizimista = new Dizimista();
-    dizimista.setId(dizimistaDto.id());
     dizimista.setNome(dizimistaDto.nome());
     dizimista.setCpf(dizimistaDto.cpf());
     dizimista.setEmail(dizimistaDto.email());
@@ -20,7 +19,6 @@ public class EntityMapper {
 
   public static Endereco toEndereco(EnderecoDto enderecoDTO) {
     Endereco endereco = new Endereco();
-    endereco.setId(enderecoDTO.id());
     endereco.setLogradouro(enderecoDTO.logradouro());
     endereco.setNumero(enderecoDTO.numero());
     endereco.setComplemento(enderecoDTO.complemento());
@@ -33,7 +31,6 @@ public class EntityMapper {
 
   public static Contribuicao toContribuicao(ContribuicaoDto contribuicaoDTO) {
     Contribuicao contribuicao = new Contribuicao();
-    contribuicao.setId(contribuicaoDTO.id());
     contribuicao.setValor(contribuicaoDTO.valor());
     contribuicao.setDataContribuicao(contribuicaoDTO.dataContribuicao());
     contribuicao.setMetodoContribuicao(contribuicaoDTO.metodoContribuicao());

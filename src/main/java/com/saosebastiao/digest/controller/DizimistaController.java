@@ -1,7 +1,7 @@
 package com.saosebastiao.digest.controller;
 
-import com.saosebastiao.digest.dto.DizimistaDto;
-import com.saosebastiao.digest.dto.EntityMapper;
+import com.saosebastiao.digest.controller.dto.DizimistaDto;
+import com.saosebastiao.digest.controller.dto.EntityMapper;
 import com.saosebastiao.digest.entity.Dizimista;
 import com.saosebastiao.digest.service.DizimistaService;
 import com.saosebastiao.digest.service.EnderecoService;
@@ -41,16 +41,22 @@ public class DizimistaController {
     return dizimistaService.buscarPorId(id);
   }
 
-  @GetMapping("/{cpf}")
-  @ResponseStatus(HttpStatus.OK)
-  public Dizimista buscarPorCpf(@PathVariable String cpf) {
-    return dizimistaService.buscarPorCpf(cpf);
-  }
+//  @GetMapping("/{cpf}")
+//  @ResponseStatus(HttpStatus.OK)
+//  public Dizimista buscarPorCpf(@PathVariable String cpf) {
+//    return dizimistaService.buscarPorCpf(cpf);
+//  }
+//
+//  @GetMapping("/{nome}")
+//  @ResponseStatus(HttpStatus.OK)
+//  public List<Dizimista> buscarPorNome(@PathVariable String nome) {
+//    return dizimistaService.buscarPorNome(nome);
+//  }
 
-  @GetMapping("/{nome}")
+  @PatchMapping("/{id}")
   @ResponseStatus(HttpStatus.OK)
-  public List<Dizimista> buscarPorNome(@PathVariable String nome) {
-    return dizimistaService.buscarPorNome(nome);
+  public Dizimista update(@PathVariable Long id, DizimistaDto dizimistaDto) {
+    return dizimistaService.update(id, EntityMapper.toDizimista(dizimistaDto));
   }
 
   @DeleteMapping("/{id}")

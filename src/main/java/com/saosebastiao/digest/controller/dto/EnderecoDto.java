@@ -1,4 +1,4 @@
-package com.saosebastiao.digest.dto;
+package com.saosebastiao.digest.controller.dto;
 
 public record EnderecoDto(
         Long id,
